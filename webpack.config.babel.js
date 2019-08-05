@@ -5,7 +5,7 @@ const PATHS = {
   dist: path.join(__dirname, 'dist'),
 };
 const webpackConfiguration = () => ({
-  entry: path.join(PATHS.src, 'app.js'),
+  entry: path.join(PATHS.src, 'index.js'),
   target: 'node',
   output: {
     path: PATHS.dist,
