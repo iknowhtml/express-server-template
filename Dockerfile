@@ -17,6 +17,7 @@ FROM node:alpine
 WORKDIR /usr/app
 
 COPY package.json ./
+COPY yarn.lock ./
 
 # Install dependencies
 RUN yarn install --production --pure-lockfile
