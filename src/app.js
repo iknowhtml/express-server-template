@@ -1,5 +1,9 @@
-const app = () => console.log('This is a basic app.');
+import express from 'express';
 
-app();
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
 
 export default app;
