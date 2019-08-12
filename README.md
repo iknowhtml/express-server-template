@@ -1,4 +1,4 @@
-# Node Template
+# Express Template
 A basic template for an Express applications with linting.
 
 #### To use
