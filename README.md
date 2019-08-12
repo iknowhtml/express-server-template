@@ -1,5 +1,5 @@
 # Express Template
-A basic template for an Express application with linting, Webpack transpilation and Docker set up.
+A basic template for an Express application with linting, testing, Webpack transpilation and Docker set up.
 
 #### To use
 Checkout this repo, install dependencies, then run the following commands in the terminal.
